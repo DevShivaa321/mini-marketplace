@@ -69,6 +69,7 @@ mini-marketplace/
  ├── package.json
  └── README.md
 
+
 🚀 Getting Started
 1️⃣ Clone the repo
 git clone https://github.com/DevShivaa321/mini-marketplace.git
