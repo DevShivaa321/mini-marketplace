@@ -5,7 +5,7 @@ A modern and minimal online marketplace where users can browse, list, review, an
 🌐 Live Demo
 
 Hosted URL:
-👉 https://mini-marketplace-projects.vercel.app
+👉 [https://mini-marketplace-projects.vercel.app](https://mini-marketplace-eight.vercel.app/)
 
 📂 GitHub Repository
 
