@@ -50,23 +50,41 @@ Vercel
 
 📁 Project Structure
 mini-marketplace/
+
  ├── public/
+ 
  ├── src/
+ 
  │   ├── components/
+ 
  │   │   ├── Home.js
+ 
  │   │   ├── Sell.js
+ 
  │   │   ├── EditProduct.js
+ 
  │   │   ├── Profile.js
+ 
  │   │   ├── Wishlist.js
+ 
  │   │   ├── ReviewSection.js
+ 
  │   │   ├── ProductModal.js
+ 
  │   │   ├── Auth.js
+ 
  │   │   ├── ResetPassword.js
+ 
  │   │   ├── ProtectedRoute.js
+ 
  │   │   └── SearchBar.js
+ 
  │   ├── supabaseClient.js
+ 
  │   └── App.js
+ 
  ├── package.json
+ 
  └── README.md
 
 
