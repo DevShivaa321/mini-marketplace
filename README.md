@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+🛒 Mini Marketplace – Full Stack Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and minimal online marketplace where users can browse, list, review, and manage products. Built with React, Supabase, and deployed on Vercel for a seamless, fast, and scalable experience.
 
-## Available Scripts
+🌐 Live Demo
 
-In the project directory, you can run:
+Hosted URL:
+👉 https://mini-marketplace-projects.vercel.app
 
-### `npm start`
+📂 GitHub Repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+👉 https://github.com/DevShivaa321/mini-marketplace.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✨ Features
 
-### `npm test`
+🔐 Authentication (Login, Signup, Reset Password)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛍️ Buy & Sell Products
 
-### `npm run build`
+✏️ Edit & Update Listings
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+❤️ Add to Wishlist
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 User Profiles
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔍 Search Functionality
 
-### `npm run eject`
+⭐ Review System
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛡️ Protected Routes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+☁️ Supabase Backend Integration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🧱 Tech Stack
+Frontend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React (CRA)
 
-## Learn More
+React Router
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Tailwind CSS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Backend / Services
 
-### Code Splitting
+Supabase (Auth + Database + Storage)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Deployment
 
-### Analyzing the Bundle Size
+Vercel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📁 Project Structure
+mini-marketplace/
+ ├── public/
+ ├── src/
+ │   ├── components/
+ │   │   ├── Home.js
+ │   │   ├── Sell.js
+ │   │   ├── EditProduct.js
+ │   │   ├── Profile.js
+ │   │   ├── Wishlist.js
+ │   │   ├── ReviewSection.js
+ │   │   ├── ProductModal.js
+ │   │   ├── Auth.js
+ │   │   ├── ResetPassword.js
+ │   │   ├── ProtectedRoute.js
+ │   │   └── SearchBar.js
+ │   ├── supabaseClient.js
+ │   └── App.js
+ ├── package.json
+ └── README.md
 
-### Making a Progressive Web App
+🚀 Getting Started
+1️⃣ Clone the repo
+git clone https://github.com/DevShivaa321/mini-marketplace.git
+cd mini-marketplace
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2️⃣ Install dependencies
+npm install
 
-### Advanced Configuration
+3️⃣ Setup environment variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Create a .env file:
 
-### Deployment
+REACT_APP_SUPABASE_URL=your_url
+REACT_APP_SUPABASE_ANON_KEY=your_anon_key
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4️⃣ Run the project
+npm start
 
-### `npm run build` fails to minify
+🌙 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project is deployed on Vercel using automatic GitHub integration.
+Any push to the main branch triggers an auto-deployment.
+
+🙌 Acknowledgements
+
+Supabase for backend & authentication
+
+Vercel for smooth deployment
+
+React team for keeping frontend fun
+
+📬 Contact
+
+If you’d like feedback, improvements, or help upgrading this project:
+Shivam — GitHub: @DevShivaa321
+
+  
